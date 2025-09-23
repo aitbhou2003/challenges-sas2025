@@ -7,15 +7,15 @@ int main(){
     scanf("%d",&l);
 
     for (i = 1 ; i<l+1;i++){
-        for(j=1;j<l-1;j++){
+        for(j=1;j<l-i;j++){
             printf(" ");
         }
 
-        for (j = 1; i < 2*1-1; j++)
+        for (j = 1; j < i+1; j++)
         {
             printf("*");
         }
-        
+        printf("\n");
     }
 
 
